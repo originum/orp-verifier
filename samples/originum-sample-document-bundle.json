@@ -1,0 +1,31 @@
+{
+  "job_id": "6cf98710-dc91-4f6c-8a7b-375d5132c82a",
+  "status": "complete",
+  "file_hash": "038b018d2ab1c05166c676dd0ef197e5a30c97d320ca690ed3c8a9d5a2c98c6b",
+  "file_name": "originum-sample-document.txt",
+  "registered_at": 1780308370,
+  "completed_at": 1780308603,
+  "receipt": "0oRDoQEmoQRYJDgzNWZjNWFjLWY2MWItNDMwYy1hYTQ3LTI0OTkyYTg0MTA2ZlkBiapndmVyc2lvbgFrcmVnaXN0cnlfaWRtb3JpZ2ludW0tbWFpbm9yZWdpc3RyeV9rZXlfaWR4JDgzNWZjNWFjLWY2MWItNDMwYy1hYTQ3LTI0OTkyYTg0MTA2Zmxjb250ZW50X2hhc2hYIAOLAY0qscBRZsZ23Q7xl+WjDJfTIMppDtPIqdWiyYxrbHB1Ymxpc2hlcl9pZHggNzY5YjdlZDdjMzU1NGMzMzFkYTg3MWE5ZTViZTk2ODJwcHVibGlzaGVyX2tleV9pZHhAMjkxM2VhMjRlNTVlYmRmNzJkNTNiNzk3NmQxOGUxMGUyZDAwNmRlNGE3MTYwZjUxNzBiY2JlNGYyNjQ3MjRlMXgacHVibGlzaGVyX2NlcnRfZmluZ2VycHJpbnRYILxVA++FA3bL8/TO3ZNLHt9iv4x6qdaAUwnyN6su6/9WaXRpbWVzdGFtcBpqHVmSaWlzc3Vlcl9pZHJvcmlnaW51bS1pc3N1ZXItdjFyaXNzdWVyX2tleV92ZXJzaW9uAVhAU/c3V0wBidbHu3Azay+s6MoLEcRwfcBL7xCQxd2dctWG0nB7+Jp/npg24miAQUFpEMpQsEPvh+mdJ+dj6pY0nQ==",
+  "proof": {
+    "registry_id": "originum-main",
+    "batch_id": 9237,
+    "batch_date": 1780308600,
+    "content_hash": "038b018d2ab1c05166c676dd0ef197e5a30c97d320ca690ed3c8a9d5a2c98c6b",
+    "created_at": 1780308370,
+    "record_sequence": 250,
+    "merkle_root": "F79X6GuWXhxyP/g1d7DYjhpsy9y+kRaWy4WEpC7m6sc=",
+    "proof_nodes": [],
+    "batch_hash": "a05486d61a792d60accd51d9ec14981828054eef09e6d29f44f88506123834bc",
+    "signed_batch_hash": "0oRDoQEmoFggoFSG1hp5LWCszVHZ7BSYGCgFTu8J5tKfRPiFBhI4NLxYQHxtZ0LJbaNxF7GMJDLtgW/GdwGzZxg4jsAxE11afW6+9kZKMrPiL39eN+8tYLKz7oNOoLNAlBDMruK1A6/OXuQ=",
+    "signed_checkpoint": "0oRDoQEmoFiReyJyZWdpc3RyeV9pZCI6Im9yaWdpbnVtLW1haW4iLCJiYXRjaF9pZCI6OTIzNywidHJlZV9zaXplIjoxLCJtZXJrbGVfcm9vdCI6IkY3OVg2R3VXWGh4eVAvZzFkN0RZamhwc3k5eStrUmFXeTRXRXBDN202c2M9IiwidGltZXN0YW1wIjoxNzgwMzA4NjAyfVhAwhg9PtzbLEgI2kmN8oj6XvF+v9ut82NP3YwffM17N0ie2vDeajYXlMtDF24ncRlZIx02h1VE5pvcWfuCnTWoCQ==",
+    "tree_size": 0,
+    "bitcoin_anchor": {
+      "ots": "AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEItorXKgGnNhQe6WAAmpFFoltioFyzhuogUzCFH9YOI9vwCF/DNbMEb6+TCPAgl/Q5fp3AjXMqpPCmR/SiIXDypQKRLHvQhcvGePrEWBMI8BAzdcE+8JlPx+M/meMV0OijCPEgp+Gq5fP5GBhA/WK2axCVTpbhqJOqI+W82ukca39WqRII8CDi+ljCOgGe2GejFxzWTk/hciS6rSQgZ1aOPwEnYMKlSAjwINhlF7frcE0PGOTbNrxMj5QPNKcsv4OhDYvRlMgphHtZCPEEah1ae/AIThCNJO29TTsAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw==",
+      "anchored_hash": "b68ad72a01a736141ee960009a9145a25b62a05cb386ea205330851fd60e23db",
+      "anchored_hash_type": "anchor_commitment_v1",
+      "status": "pending"
+    }
+  },
+  "trust_bundle": "o2dpc3N1ZXJzglj80oRDoQEmoFixqAEBAnBpY3NvZnQtaXNzdWVyLXYxA1hAGfruT2HaRWzGenjsBvdVA8CzmvJmGR6b4V4zuP7DPKPoUL11qjK1Oz2O152Ke9n94pLYUompz9MjA8QBHVhAxwQaafMSawUac1kT6wYBB3glcm9vdC1iNDQwNWMzMzY2OWNmNmQ2YTEwNmIxYzRkZDM5YzUxMwhYIFJTJNN32ubGnSDG8ezaHNIoho4Vk7lITyX0mYwZQF7rWEAQS1R2iWuQb8iWuOFACie/3kRW2VFVTaOjH3sNJt7I5Uim36QKsveiaRsIdm61kCpJlF2uvWaPMPm/oaielOs4WP7ShEOhASagWLOoAQECcm9yaWdpbnVtLWlzc3Vlci12MQNYQHWI/K7MaP+a55WUSgqK++Q1rrnA0OLpQmrwoKdVituftEPui3yTFcCtogCJP7MJf40fMIv4mF2wXf7hbcii180EGmnzEmIFGnNZE+IGAQd4JXJvb3QtYjQ0MDVjMzM2NjljZjZkNmExMDZiMWM0ZGQzOWM1MTMIWCBSUyTTd9rmxp0gxvHs2hzSKIaOFZO5SE8l9JmMGUBe61hAOBqfrMtNVPJ2pB/BNBrZJV/CEkqZ5K18Zcj1Wf7y4X+nqZlhRs1OF8g5Y52zuZT4bS8iE0gJQ/ce4sXAgYSrx2hyZWdpc3RyeVjN0oRDoQEmoFiCpwEBAm1vcmlnaW51bS1tYWluA1hASRFIBB+s2oPahNG5fyXyM9eYzdcUcfj9WjUEQLL5ovb/eIWizg9UBNQbKFRQpgwdJD3cwP0iVF0UCwjvmJPghgQaad5uGwUABgEHWCBSUyTTd9rmxp0gxvHs2hzSKIaOFZO5SE8l9JmMGUBe61hAX/2DQuOmR5+WUdlyL7jyu3BJJ6L2bWdxWTlAYRay0prLse57rO0FD6N4JvYaDj6Z/3MquqI/RqT1sN+pQwz49Wx0cnVzdF9hbmNob3JY+NKEQ6EBJqEER21ldGEtdjFYpKYBAgJyb3JpZ2ludW0tYXV0aG9yaXR5A2VFUzI1NgQBBRpp3m6oBoGmAQECeCVyb290LWI0NDA1YzMzNjY5Y2Y2ZDZhMTA2YjFjNGRkMzljNTEzA1hAf/wFUGt7rpxmPIZpJGgtGx1X3MpqZZ/9WSPVYubq6puljteeT/FWsftvlctY0xX6l7ysw+XVRXYEl2xE0uOo3gQaad5uAwUafKpxAwYBWEBl8DSCpgpJODGLNtJ2cguUyIFGPQl4JWEyKXIMbGB8wEboMdJVd+lb0YUezqyJvcGQ8eu1EYx/JfNTYL5TIpnm",
+  "trust_bundle_id": "originum-main@f230d788554056889c0dfc328c8235c592541dced9b41fc3dcf805359925dd4e"
+}

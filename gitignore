@@ -1,0 +1,80 @@
+# =============================================================================
+# .gitignore for orp-verifier
+# =============================================================================
+# Keep the repository clean of generated artifacts, IDE metadata, OS junk
+# and (most importantly) anything that could carry secrets.
+
+# ---- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg
+*.egg-info/
+.eggs/
+wheels/
+
+# Test caches
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# PyInstaller (standalone builds of the verifier)
+*.spec.bak
+*.manifest
+
+# ---- IDE / editor metadata -------------------------------------------------
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ---- OS junk ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Local fixtures (must never be committed) ------------------------------
+# Bundles, .ots files and user files used for local testing. The repo
+# ships its own synthetic fixtures in tests/; no need to commit ad-hoc
+# stuff that lives in the project root.
+/bundle.json
+/bundle-*.json
+/*.ots
+/batch-*.ots
+/reverxed.psd
+/CEO.png
+/meta-key.pub
+/meta-v*.pub
+
+# ---- Secrets (defensive — none should ever live here) ----------------------
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.env
+.env.*
+secrets/
+credentials/

@@ -1,0 +1,14 @@
+# Core cryptography and CBOR — both are mature, widely-used libraries.
+cryptography>=42.0.0
+cbor2>=5.6.0
+
+# OpenTimestamps parser (pure Python, no native dependencies).
+# Used for check 6 (Bitcoin anchor verification). Optional: check 6
+# is reported as "not applicable" if this library is missing, the
+# rest of the verifier (checks 1-5) works without it.
+#
+# Note: this is `opentimestamps`, NOT `opentimestamps-client`. The
+# client pulls in python-bitcoinlib which requires OpenSSL native DLLs
+# and is broken on Windows + Python 3.13. We use only the format parser
+# and the calendar HTTP client, which are pure Python.
+opentimestamps>=0.4.0

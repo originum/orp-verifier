@@ -1,0 +1,46 @@
+ORIGINUM — SAMPLE DOCUMENT FOR PUBLIC VERIFICATION DEMO
+========================================================
+
+This is a sample document notarized in the Originum public registry
+(originum-main) as a permanent, publicly verifiable demonstration of
+the ORP-001 protocol.
+
+It exists for one purpose: to allow anyone, anywhere, at any time, to
+download the corresponding proof bundle and the external verifier from
+GitHub, and confirm that this exact file was registered by Originum at
+a specific moment in time, anchored to the Bitcoin blockchain.
+
+If the SHA-256 hash of this file matches the hash declared in the proof
+bundle, and the bundle verifies successfully, then the entire ORP-001
+chain of evidence is sound for this file:
+
+  1. The trust anchor was signed by Originum's offline authority key.
+  2. The registry "originum-main" was endorsed by a trusted root.
+  3. The receipt was issued and signed by the registry.
+  4. The file was included in a Merkle batch.
+  5. The batch was signed by the registry.
+  6. The batch's anchor commitment was timestamped in a Bitcoin block.
+
+How to verify
+-------------
+
+  1. Download this file unchanged.
+  2. Download the bundle JSON from originum.io (the sample bundle is
+     published alongside the verifier).
+  3. Install the verifier:
+         git clone https://github.com/originum/orp-verifier
+         cd orp-verifier
+         pip install -r requirements.txt
+  4. Run:
+         python originum_verify.py \
+             --file originum-sample-document.txt \
+             --bundle originum-sample-document.bundle.json
+
+You should see all six checks pass.
+
+If Originum the company ever ceases to exist, this proof remains valid
+forever, because Bitcoin's blockchain is not under Originum's control.
+
+----------------------------------------------------------------------
+Originum  ·  https://originum.io  ·  ORP-001 Standards Track (Frozen)
+----------------------------------------------------------------------
